@@ -2,6 +2,8 @@ body {
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     height: 100vh;
+    display: flex;
+    align-items: center;
     
 }
 
@@ -9,7 +11,6 @@ body {
     width: 550px;
     height: 729px;
     margin: 0 auto;
-   
 }
 
 .convert-container {
@@ -87,4 +88,13 @@ h4 {
 p {
     color: #353535;
     text-align: center;
+}
+
+@media only screen and (max-width: 359px) {
+   
+    .container {
+        width: 358px;
+        height: 100vh;
+    }
+
 }
