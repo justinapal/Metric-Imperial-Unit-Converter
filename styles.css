@@ -90,11 +90,33 @@ p {
     text-align: center;
 }
 
-@media only screen and (max-width: 359px) {
-   
-    .container {
-        width: 358px;
-        height: 100vh;
+
+@media only screen and (max-width: 500px) {
+    body {
+       display: block;
+       margin: 0;
+       
     }
 
+    .container {
+        margin: 0;
+    }
+    .container, .convert-container {
+        width: 375px;
+        height: auto;
+    }
+
+    .converted-metrics {
+        width: 355px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    .input-to-convert {
+        width: 85px;
+        height: 55px;
+        margin-top: 25px;
+}
 }
