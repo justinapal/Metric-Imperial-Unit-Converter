@@ -102,12 +102,12 @@ p {
         margin: 0;
     }
     .container, .convert-container {
-        width: 375px;
+        width: 400px;
         height: auto;
     }
 
     .converted-metrics {
-        width: 355px;
+        width: 380px;
     }
     
     h1 {
